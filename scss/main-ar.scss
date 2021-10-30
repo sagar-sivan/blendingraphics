@@ -1,0 +1,37 @@
+//@import 'themes/rtl';
+@import 'base/direction-rtl.scss';
+
+// /*b5 start -------------------------------------------------------------------------------------------------------------------*/
+@import 'vendors/b5/bootstrap-utilities';
+@import 'vendors/b5/bootstrap-ar';
+
+// /*b5 end ---------------------------------------------------------------------------------------------------------------------*/
+
+// utilities
+@import 'utilities/variables';
+@import 'utilities/mixins';
+
+// base
+@import 'base/reset';
+@import 'base/font';
+@import 'base/buttons';
+@import 'base/common';
+
+// components
+//@import 'components/animation';
+
+// layout
+@import 'layout/header';
+@import 'layout/menu';
+@import 'layout/footer';
+@import 'layout/banner';
+
+// @import 'layout/social-media';
+// @import 'layout/inner-page-header';
+// @import 'layout/athletes-details-header';
+// @import 'layout/toast';
+// @import 'layout/popup';
+
+// pages
+//@import 'pages/banner';  
+@import 'pages/home'; 

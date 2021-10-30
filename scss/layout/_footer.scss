@@ -1,0 +1,14 @@
+.footer {
+    background: #444133;
+
+    p {
+        color: #ffffff;
+        margin: 0;
+        font-size: 13px;
+        letter-spacing: 1px;
+
+        span {
+            color: $primary-color;
+        }
+    }
+}

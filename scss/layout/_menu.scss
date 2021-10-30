@@ -1,0 +1,26 @@
+.header {
+    &-nav {
+        ul {
+            display: flex;
+            font-size: 20px;
+
+            li {
+                padding: 0 10px 0 30px; 
+                a {
+                    padding: 0 0; 
+                    color: #2b2c2f;
+
+                    &:hover {
+                        border-bottom: 1px solid $light-grey;
+                    }
+                }
+            }
+        }
+
+        &-holder {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+    }
+}

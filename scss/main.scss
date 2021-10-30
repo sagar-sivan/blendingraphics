@@ -1,0 +1,31 @@
+//@import 'themes/ltr';
+@import 'base/direction-ltr.scss';
+
+/*b5 start -------------------------------------------------------------------------------------------------------------------*/
+
+@import 'vendors/b5/bootstrap';
+
+/*b5 end ---------------------------------------------------------------------------------------------------------------------*/
+
+// utilities
+@import 'utilities/variables';
+@import 'utilities/mixins';
+
+// base
+@import 'base/reset';
+@import 'base/font';
+@import 'base/buttons';
+@import 'base/common';
+
+// components
+//@import 'components/animation';.........
+
+// layout
+@import 'layout/header';
+@import 'layout/menu';
+@import 'layout/footer';
+@import 'layout/banner';
+ 
+// pages 
+@import 'pages/home';
+@import 'pages/process';
